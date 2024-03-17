@@ -1,4 +1,4 @@
 # build.sh
 #!/bin/bash
 
-docker build -t my-react-app .
+docker-compose build
