@@ -1,4 +1,4 @@
 # build.sh
 #!/bin/bash
 
-docker build .
+docker-compose build
