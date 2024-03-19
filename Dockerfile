@@ -1,3 +1,4 @@
+
 # Use official Node.js image as the base image
 FROM node:14
 
@@ -8,7 +9,9 @@ WORKDIR /app
 RUN npm install
 RUN npm install -g serve
 
-# Copy the application code to the working directory
+COPY package*.json ./
+
+# Copy all files from the repository to the working directory in the container
 COPY . .
 
 EXPOSE 80
