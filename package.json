@@ -1,0 +1,11 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "react-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
